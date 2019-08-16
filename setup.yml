@@ -5,4 +5,4 @@
     blockinfile:
       path: ~/.bashrc
       block: |
-        source ~/custom_setup/prompt.sh
+        source ~/custom_setup/bashrc/prompt.sh
