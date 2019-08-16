@@ -1,3 +1,8 @@
 Install Custom Setup by running:
 
 sudo yum -y install git ansible && git clone https://github.com/cudnohu1/custom_setup.git && ansible-playbook custom_setup/setup.yml
+
+
+prompt.sh found at:
+
+https://gist.github.com/loudambiance/a41b42a4295bce6e7304
