@@ -1,0 +1,3 @@
+Install Custom Setup by running:
+
+sudo yum -y install git ansible && git clone https://github.com/cudnohu1/custom_setup.git && ansible-playbook custom_setup/setup.yml

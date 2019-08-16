@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  tasks:
+  - name: Add prompt.sh to .bashrc
+    blockinfile:
+      path: ~/.bashrc
+      block: |
+        source ~/custom_setup/prompt.sh
